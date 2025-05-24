@@ -1,0 +1,49 @@
+.productCategories {
+    width: 100%;
+    margin: 100px 0px;
+
+    h2.title {
+        margin-bottom: 50px;
+    }
+
+    .blxBox {
+        overflow: hidden;
+        border: 2px solid rgba(235, 235, 240, 1);
+        cursor: pointer;
+
+        .cont {
+            width: 100%;
+            padding: 40px 50px 120px 0px;
+
+            h3 {
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 160%;
+                letter-spacing: 0%;
+                color: rgba(41, 45, 51, 1);
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                letter-spacing: 0%;
+                color: rgba(130, 138, 153, 1);
+            }
+        }
+
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+
+        &:hover {
+            border: 2px solid rgba(92, 142, 229, 1);
+
+            h3 {
+                color: rgba(92, 142, 229, 1);
+            }
+        }
+    }
+}

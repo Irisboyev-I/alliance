@@ -1,0 +1,31 @@
+.relationships {
+    width: 100%;
+    margin: 100px 0px;
+
+    .col-lg-6 {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        h2.title {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: rgba(41, 45, 51, 1);
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            color: rgba(130, 138, 153, 1);
+        }
+    }
+
+    .col-lg-6:last-child {
+        padding-left: 70px;
+    }
+}

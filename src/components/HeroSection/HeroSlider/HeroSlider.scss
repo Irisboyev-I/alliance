@@ -1,0 +1,81 @@
+.HeroSlider {
+  margin-bottom: 100px;
+  width: 100%;
+
+  .textContainer {
+    width: 100%;
+
+    .textBox {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: white;
+    margin-bottom: 30px;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 15%;
+      height: 2px;
+      background-color: rgba(92, 142, 229, 1);
+      margin-bottom: 30px;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+    max-width: 680px;
+  }
+
+  button {
+    padding: 25px 60px;
+    background-color: rgba(92, 142, 229, 1);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    &:hover {
+      color: crimson;
+      transition: .16s;
+    }
+  }
+
+  .slick-slider {
+    ul.slick-dots {
+      display: none !important;
+    }
+  }
+}
+
+@media (max-width:992px) {
+  .HeroSlider {
+    margin-bottom: 100px;
+
+    h1 {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 120%;
+      letter-spacing: 0%;
+      color: white;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      max-width: 100%;
+    }
+  }
+}

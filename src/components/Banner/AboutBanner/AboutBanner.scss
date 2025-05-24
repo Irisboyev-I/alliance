@@ -1,0 +1,26 @@
+.aboutBanner {
+    padding: 50px 0px;
+    background-color: rgba(240, 242, 245, 1);
+
+    p.path {
+        .text-decoration-none {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            color: rgba(130, 138, 153, 1);
+
+            &:hover {
+                color: black;
+            }
+        }
+
+        span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            color: rgba(41, 45, 51, 1);
+        }
+    }
+}

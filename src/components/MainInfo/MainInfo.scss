@@ -1,0 +1,24 @@
+.mainInfo {
+    width: 100%;
+    padding: 100px 0px;
+
+    .photoSide {
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    h2.title {
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 160%;
+        letter-spacing: 0%;
+        margin-top: 20px;
+        color: rgba(130, 138, 153, 1);
+    }
+}

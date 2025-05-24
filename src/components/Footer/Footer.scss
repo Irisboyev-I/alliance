@@ -1,0 +1,132 @@
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 50px 0px;
+
+    .footer-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+        margin-bottom: 56px;
+
+        .fontawesome {
+            color: rgba(92, 142, 229, 1);
+            margin-right: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+
+        span {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-decoration: none;
+            color: black;
+            opacity: .6;
+
+            &:hover {
+                text-decoration: underline;
+                opacity: 1;
+            }
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            opacity: .6;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+                opacity: 1;
+            }
+        }
+
+        p.adress {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            color: black;
+        }
+    }
+
+    hr {
+        margin-bottom: 50px;
+    }
+
+    .footer-nav {
+        .title {
+            p {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 160%;
+                letter-spacing: 0%;
+                color: rgba(41, 45, 51, 1);
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 160%;
+                    letter-spacing: 0%;
+                    color: rgba(130, 138, 153, 1);
+                    display: block;
+                    margin-bottom: 15px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1199px) {
+    footer {
+        .footer-top {
+            span {
+                font-size: 15px;
+            }
+
+            p.adress {
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    footer {
+        .footer-top {
+            gap: 15px;
+
+            span {
+                font-size: 10px;
+            }
+
+            p.adress {
+                font-size: 9px;
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    footer {
+        .footer-top {
+            display: none;
+        }
+    }
+}

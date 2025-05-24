@@ -1,0 +1,138 @@
+.contract {
+  width: 100%;
+  margin: 100px 0px;
+  background-color: rgba(240, 242, 245, 1);
+
+  .imgg {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: rgba(41, 45, 51, 1);
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: rgba(130, 138, 153, 1);
+    margin-bottom: 42px;
+  }
+
+  form {
+    width: 100%;
+
+    .form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+
+      input {
+        width: 50%;
+        padding: 10px 20px !important;
+        border: 1px solid rgba(228, 228, 235, 1)
+      }
+
+      input.input {
+        height: 40px;
+        font-size: 16px;
+        box-sizing: border-box;
+      }
+
+      .react-phone-input {
+        width: 50%;
+
+        .form-control {
+          width: 100%;
+          padding: 10px 20px !important;
+          border: 1px solid rgba(228, 228, 235, 1);
+          height: 40px;
+          font-size: 16px;
+          box-sizing: border-box;
+        }
+      }
+
+      .react-tel-input {
+        .flag-dropdown {
+          display: none;
+        }
+      }
+    }
+
+    .accept {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+      margin-top: 30px;
+      gap: 30px;
+
+      button.submit {
+        width: 40%;
+        background-color: rgba(92, 142, 229, 1);
+        padding: 15px 45px;
+        font-weight: 600;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+        border: none;
+
+        &:hover {
+          color: lightgreen;
+        }
+      }
+
+      p {
+        width: 60%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0%;
+        color: rgba(130, 138, 153, 1);
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width:1199px) {
+  .contract {
+    h2 {
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    form {
+      .accept {
+        p {
+          font-size: 9px;
+        }
+
+        button.submit {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:992px) {
+  .contract {
+    .imgg {
+      display: none;
+    }
+  }
+}
