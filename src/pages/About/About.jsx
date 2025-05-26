@@ -12,8 +12,8 @@ function About() {
             <Navbar textColors='black-edition' />
             <AboutBanner text='о компании' />
             <MainInfo />
-            <Relationships />
             <Productions />
+            <Relationships />
         </div>
     )
 }

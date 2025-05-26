@@ -7,7 +7,7 @@ function Productions() {
     return (
         <div className='productions'>
             <Container>
-                <Row>
+                <Row className='align-items-center justify-content-between'>
                     {
                         productionData.map(({ title, description, id }) => {
                             return <Col lg='6' key={id}>
@@ -16,6 +16,9 @@ function Productions() {
                             </Col>
                         })
                     }
+                    <Col lg='4'>
+                        <img className='gril' src={productionData[0].image} alt="Gril" />
+                    </Col>
                 </Row>
             </Container>
         </div>
