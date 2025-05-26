@@ -24,16 +24,7 @@ function Contract() {
             <form action="">
               <div className="form">
                 <input type="text" placeholder='Имя' className="input" />
-                <PhoneInput
-                  country={'uz'}
-                  value={phone}
-                  onChange={setPhone}
-                  inputClass="input"
-                  placeholder='+998 (__) ___-__-__'
-                  enableSearch={true}
-                  disableDropdown={false}
-                  preferredCountries={['uz', 'ru']}
-                />
+                <PhoneInput country={'uz'} value={phone} onChange={setPhone} inputClass="input" placeholder='+998 (__) ___-__-__' enableSearch={true} disableDropdown={false} preferredCountries={['uz', 'ru']} />
               </div>
               <div className="accept">
                 <button className="submit">Отправить заявку</button>
