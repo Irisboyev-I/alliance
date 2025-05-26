@@ -7,22 +7,22 @@ export const menuLink = [
   {
     id: 1,
     text: 'Контрактное производство',
-    slug: '/'
+    slug: '/contractProduce'
   },
   {
     id: 2,
     text: 'Собственные торговые марки',
-    slug: '/'
+    slug: '/ownproduce'
   },
   {
     id: 3,
     text: 'Новости',
-    slug: '/'
+    slug: '/news'
   },
   {
     id: 4,
     text: 'Контакты',
-    slug: '/'
+    slug: '/contacts'
   },
 ]
 
@@ -213,6 +213,9 @@ export const footerData = [
       { li: "Автомобильная химия", href: "#", id: 0, },
       { li: "Бытовая химия", href: "#", id: 1, },
       { li: "Дезинфицирующие средства", href: "#", id: 2, },
+      { li: "Пищевые аэрозоли", href: "#", id: 3, },
+      { li: "Косметическая продукция", href: "#", id: 4, },
+      { li: "Краски аэрозольные", href: "#", id: 5, },
     ],
   },
   {

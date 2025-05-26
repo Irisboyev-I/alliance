@@ -4,11 +4,11 @@ import { productCategories } from "../../constants/data.js"
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-function ProductCategories() {
+function ProductCategories({ remove }) {
     return (
         <div className='productCategories '>
             <Container>
-                <h2 className="title">Контрактное производство</h2>
+                <h2 className={`title ${remove}`}>Контрактное производство</h2>
                 <Row>
                     {
                         productCategories.map(({ id, title, description, image }) => {

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { slides } from "../../../constants/data.js"
 import "./HeroSlider.scss"
 import { Col, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function HeroSlider() {
   const settings = {
@@ -27,7 +28,7 @@ function HeroSlider() {
               <div className='textBox'>
                 <h1>{title}</h1>
                 <p>{description}</p>
-                <button>Подробнее о компании</button>
+                <button><Link className='text-decoration-none' to={'/about'}>Подробнее о компании</Link></button>
               </div>
             </div>
           ))}

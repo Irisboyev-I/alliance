@@ -5,11 +5,11 @@ import ap from "../../assets/AP.png"
 import "./OwnProducts.scss"
 import { Link } from 'react-router-dom'
 
-function OwnProducts() {
+function OwnProducts({ remove }) {
     return (
         <div className='ownProducts'>
             <Container>
-                <h2 className="title">собственные торговые марки</h2>
+                <h2 className={`title ${remove}`}>собственные торговые марки</h2>
                 <Row>
                     <Col lg='6'>
                         <Link to={'/'} className='text-decoration-none'>

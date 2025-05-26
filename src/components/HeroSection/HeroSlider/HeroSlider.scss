@@ -10,6 +10,16 @@
     }
   }
 
+  .text-decoration-none {
+    color: white;
+    transition: .16s;
+
+    &:hover {
+      color: lightgreen;
+      transition: .16s;
+    }
+  }
+
   h1 {
     font-weight: 400;
     font-size: 50px;

@@ -10,7 +10,7 @@ function About() {
     return (
         <div className='about'>
             <Navbar textColors='black-edition' />
-            <AboutBanner text='о компании' />
+            <AboutBanner text='о компании' pageName='О компании' />
             <MainInfo />
             <Productions />
             <Relationships />
